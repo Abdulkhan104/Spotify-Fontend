@@ -1,0 +1,64 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+build/
+coverage/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS-specific files
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional caches
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+out/
+.temp/
+tmp/
+*.tmp
+
+# Frontend (Vite/React/Angular/etc.)
+*.local
+*.lock-wscript
+
+# Yarn / pnpm / npm cache
+.pnp/
+.pnp.js
+.pnpm-debug.log
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.yarn/*
